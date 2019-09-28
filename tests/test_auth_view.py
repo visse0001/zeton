@@ -11,7 +11,7 @@ def test_not_logged_redirects_to_login_page(client):
 
 CHILD_LOGIN = 'child_login'
 CHILD_PASSWORD = 'child_password'
-CHILD_FIRSTNAME = 'Bonifacyyyy'
+CHILD_FIRSTNAME = 'Bonifacy'
 
 
 def test_logged_child_with_correct_credentials(client, auth):
